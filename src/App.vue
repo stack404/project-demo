@@ -6,8 +6,8 @@
       <div>
         <p>{{ $t("http.") }}</p>
       </div>
-      <svg-icon :name="'basics'"></svg-icon>
-      <svg-icon :name="'download'"></svg-icon>
+      <svg-icon icon-class="basics"></svg-icon>
+      <svg-icon icon-class="download"></svg-icon>
     </div>
     <router-view />
   </div>
